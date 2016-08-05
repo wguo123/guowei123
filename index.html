@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>0_Table_of_Contents</title>
+<title>MarkdownPad Document</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style type="text/css">
 /* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
@@ -290,95 +290,11 @@ img {
   max-width: 100%
 }
 </style>
-<base href='file:\\\D:\AML_Projects\TDSP-Linux\Utilities\Docs\'/>
 </head>
 <body>
-<h1>Team Data Science Process Tutorial</h1>
-<p>This tutorial provides instructions on how to set up <strong><a href="https://azure.microsoft.com/en-us/documentation/learning-paths/data-science-process/">Team Data Science Process</a></strong> (TDSP) environment for different roles in the organization.</p>
-<h2><a href="./1_Group_Manager.md">Group Manager</a></h2>
-<ol>
-<li>
-Set up group VSTS server: weig-ds.visualstudio.com
-<ul>
-<li>Sign up VSTS server</li>
-<li>Create Project Template Repo (empty), named R1</li>
-<li>Create Utility Repo (empty), named R2</li>
-</ul>
-</li>
-<li>
-Seed Project Template (R1) and Utilities (R2) from TDSP server (from public GitHub in the future) as Group-Project-Template and Group-Utilities
-<ul>
-<li>Clone two repos (TDSP Project Template Repo, named R01, and TDSP Utilities, named R02) from TDSP server (GitHub), as D01 and D02</li>
-<li>Clone R1 and R2 as D1 and D2 (directories on local machine)</li>
-<li>Copy D01 to D1, D02 to D2</li>
-<li>Make changes to D1 and D2, if needed</li>
-<li>Push D1 and D2 back to R1 and R2 on group server</li>
-</ul>
-</li>
-<li>Add group members to group server</li>
-</ol>
-<h2><a href="./2_Team_Lead.md">Team Lead</a></h2>
-<ol>
-<li>Assumptions: R1 and R2 have been set up by group lead</li>
-<li>
-Create team repo in VSTS server: ds-team-1
-<ul>
-<li>Rename the default repository as Team-1-Project-Template (R3)</li>
-<li>Create a new empty repo under team repo: Team-1-Utilities (R4)</li>
-</ul>
-</li>
-<li>
-Copy Group Project Template and Group Utilities to team repo as Team-1-Project-Template and Team-1-Utilities
-<ul>
-<li>Clone Group-Project-Template R1 and Group-Utilities R2 from group VSTS server to local machine, as D1 and D2</li>
-<li>Clone R3 and R4 to local machine as D3 and D4</li>
-<li>Copy D1 to D3, and copy D2 to D4</li>
-<li>Make changes to D3 and D4, if needed</li>
-<li>Push D3 and D4 to R3 and R4 on group server</li>
-</ul>
-</li>
-<li>Create shared storage (file share, Team FS) for team resources: Team-1-share-drive (Optional)</li>
-<li>Mount file share (Team FS) (Optional)</li>
-<li>Add team members</li>
-</ol>
-<h2><a href="./3_Project_Lead.md">Project Lead</a></h2>
-<ol>
-<li>Assumption: R3 and R4 have been set up by team lead</li>
-<li>Create project-1 template repo (R5) under Team project</li>
-<li>
-Seed Project-1-template repo R5
-<ul>
-<li>Clone Team-1-Project-Template R3 and Team-1-Utilities R4 from team repo to local machine as D3 and D4</li>
-<li>Clone Project-1-Template repo R5 to local machine as D5</li>
-<li>Copy D3 to D5</li>
-<li>Make changes to D5 if needed</li>
-<li>Push D5 to Project-1-Template repo R5</li>
-</ul>
-</li>
-<li>Create shared storage or project resource: Project-1-share-drive (FS Project) (Optional)</li>
-<li>Mount FS-Team and FS-Project to local machine (Optional)</li>
-<li>Add project members</li>
-</ol>
-<h2><a href="./4_Project_IC.md">Project IC</a></h2>
-<ol>
-<li>Assumption: R2, R4, and R5 have been created and seeded by team lead and project lead</li>
-<li>Clone R5 and R4 to local machine as D5 and D4</li>
-<li>Clone R2 to local machine as D2 (Optional)</li>
-<li>Mount project shared storage: Project-1-share-drive (Optional)</li>
-<li>Mount team shared storage: Team-1-share-drive (Optional)</li>
-</ol>
-<h2><a href="./5_Tools.md">Tools</a></h2>
-<ol>
-<li>Install Git on Windows and Linux machine</li>
-<li>Create SSH public key</li>
-<li>Provision Data Science Virtual Machine</li>
-<li>Create share storage</li>
-<li>Mount storage</li>
-<li>Sprint planning</li>
-<li>Checkout and merge branch</li>
-<li>Pull request and Code review</li>
-<li>Security control</li>
-</ol>
+<p>Welcome to Wei's website</p>
+<p>This is a picture I took when I was traveling to California in June 2016:</p>
+<p><img src="IMG_0319.JPG" /></p>
 
 </body>
 </html>
